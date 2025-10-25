@@ -1,0 +1,11 @@
+index_1 = take input as popup or html textbox
+
+index_2 = counter program (inc or dec and reset while clicking)
+
+index_3 = maths.
+
+index_4 = random number generator (dice roll)
+
+index_5 = IF statements(age input js run)
+
+index_6 = checked property (radio buttons)

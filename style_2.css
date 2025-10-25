@@ -1,0 +1,29 @@
+body{
+    height: 100%;
+    margin-top: 20%;
+}
+#countLabel{
+    display: block;
+    text-align:center;
+    margin-top: 10vh;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+
+}
+#buttonContainer{
+    text-align: center;
+    padding: 25px;
+}
+button{
+    margin: 10px;
+    padding: 15px 40px;
+    font-size: 1.5em;
+    color: white;
+    background-color:black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: gray;
+}

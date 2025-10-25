@@ -1,0 +1,29 @@
+// RANDOM NUMBER GENERATOR
+
+let randomNum = Math.random();
+console.log(randomNum);
+
+let randomNumb = Math.floor(Math.random()* 6);
+console.log(randomNumb);
+
+
+// DICE ROLL
+
+const button = document.getElementById("button");
+const label1 = document.getElementById("label1");
+const label2 = document.getElementById("label2");
+const label3 = document.getElementById("label3");
+const max = 6;
+const min = 1;
+let randomNumber1;
+let randomNumber2;
+let randomNumber3;
+
+button.onclick = function(){
+    randomNumber1 = Math.floor(Math.random()* max)+ min;
+    randomNumber2 = Math.floor(Math.random()* max)+ min;
+    randomNumber3 = Math.floor(Math.random()* max)+ min;
+    label1.textContent = randomNumber1;
+    label2.textContent = randomNumber2;
+    label3.textContent = randomNumber3;
+}

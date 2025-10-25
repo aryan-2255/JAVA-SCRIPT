@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#button{
+    font-size: 3em;
+    padding: 5px  30px;
+    border-radius: 10px;
+    color: white;
+    background-color: gray;
+}
+label{
+    font-size: 6em;
+    color: red;
+}
