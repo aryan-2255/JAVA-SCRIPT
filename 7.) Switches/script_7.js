@@ -22,8 +22,28 @@ switch (day) {
         console.log("it is saturday");
         break;
     case 7:
-        console.log("it is sunday")
+        console.log("it is sunday");
         break;
     default:
-        console.log("you have a bad day")
+        console.log("you have a bad day");
 }
+
+
+
+let testScore = 5;
+let grade;
+testScore = Number(testScore);
+switch (true){
+    case testScore >= 90:
+    grade = "A";
+    break;
+    case testScore >= 80:
+    grade = "B";
+    break
+    case testScore >= 70:
+    grade = "c";
+    break;
+    default:
+    grade = "fail marks less than 70";
+}
+console.log(grade)
