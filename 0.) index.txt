@@ -1,0 +1,13 @@
+1 = take input as popup or html textbox
+
+2 = counter program (inc or dec and reset while clicking)
+
+3 = maths.
+
+4 = random number generator (dice roll)
+
+5 = IF statements and ternary operators(age input js run)
+
+6 = checked property (radio buttons)
+
+7 = switches (replace many else if statements)

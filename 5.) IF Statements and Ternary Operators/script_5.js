@@ -62,6 +62,23 @@
 
 
 
+// // ternary operator = a shortcut to if{} and else{} statements helps to assign avariable based on a condition
+// //    condition ? codeiftrue : codeifFalse;
+
+let agee = 21;
+
+let message = agee >= 18 ? "you are an adult" : " you are a minor"
+console.log(message)
+
+
+
+
+
+
+
+
+
+
 // // for html code
 
 const input = document.getElementById("ageinput");
